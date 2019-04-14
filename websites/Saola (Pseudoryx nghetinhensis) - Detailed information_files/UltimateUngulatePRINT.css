@@ -1,0 +1,183 @@
+body 
+{color: black; font-size: 12pt; font-family: Times New Roman; text-align:center;
+background-color: transparent;}
+
+A:link {text-decoration: none; color: #000000}
+A:visited {text-decoration: none; color: #000000}
+
+DIV.center {text-align: center;}
+
+.page-break  { display: block; page-break-before: always; }
+
+/***********************************************
+*  OUTLINE BOX FOR ALL PAGES AFTER index.html  *
+***********************************************/
+
+DIV.box {margin-left: auto;
+margin-right: auto;
+width: 100%;
+background-color: #B99067;
+text-align: left;}
+
+
+/***********
+*  HEADER  *
+***********/
+
+A.headerimage {display: block; 
+width: 589px;
+height: 32px;
+background-image: url(../Images/discoverheader.gif);
+text-align: center;
+margin-left: auto;
+margin-right: auto;}
+
+DIV.header {display: none;}
+
+DIV.FactSheet {font-size: 13px; font-weight: bold; 
+font-family: Trebuchet MS, Helvetica, sans-serif; text-align: center;}
+
+
+/*************
+*  NAME BOX  *
+*************/
+
+DIV.name {width=100%;
+padding: 8px;
+background-color: #EDCFA5;
+border-style: solid;
+border-color: #B99067;
+border-width: 5px;}
+
+DIV.Family {font-size: 48px; font-weight: bold; font-family: Trebuchet MS, Helvetica, sans-serif; text-align: center;}
+DIV.FamilyDesc {font-size: 24px; font-weight: bold; font-family: Trebuchet MS, Helvetica, sans-serif; text-align: center;}
+
+DIV.Latin {font-size: 40px; font-weight: bold; font-style: italic; font-family: Times New Roman;}
+DIV.common {font-size: 28px; font-family: Times New Roman;}
+
+
+/************************************
+*  SPECIES IMAGES (on fact sheets)  *
+************************************/
+
+DIV.image A img {border: 2px solid #000000; text-decoration: none;}
+TR.clickimages {display: none;}
+
+
+/***************
+*  INFO PANEL  *
+***************/
+
+DIV.info {border-style: solid;
+border-color: #B99067;
+border-width: 5px;
+line-height: 130%;}
+
+DIV.Familyinfo {border-style: solid;
+border-color: #B99067;
+border-width: 0px 5px 5px 5px;
+line-height: 130%;}
+
+/************************
+*  FAMILY PAGE CONTENT  *
+************************/
+
+DIV.FamilyTree {text-align: center; font-family: Trebuchet MS, Helvetica, sans-serif; font-size: 24px; font-weight: bold; line-height: 130%;}
+DIV.branch {text-align: center; font-family: Trebuchet MS, Helvetica, sans-serif; font-size: 13px; line-height: 120%;}
+DIV.jump {display: none;}
+
+TABLE.phylogeny {Font-family: Trebuchet MS, Helvetica, sans-serif; Font-style: italic; Font-size: 19px; line-height: 11px; margin-bottom: 20px;}
+TABLE.phylogeny A:link {text-decoration: none; color: #000000}
+TABLE.phylogeny A:visited {text-decoration: none; color: #000000}
+
+TD.Return {Font-style: normal; text-align: center; vertical-align: top; line-height: 22px;}
+TD.SilhouetteReturn {Font-style: normal; text-align: center; vertical-align: top;}
+TD.Subfamily {Font-style: normal; font-weight: bold; Font-size: 21px; padding-bottom: 13px; line-height: 23px !important; line-height:25px;}
+
+TD.phylo {background-repeat: no-repeat;}
+
+TD.subfam {line-height: 130%}
+
+DIV.Ref {padding: 8px; text-align: left; background-color: #EDCFA5;}
+
+
+/*************************
+*  SPECIES PAGE TAB ROW  *
+*************************/
+
+TR.tab {display: none;}
+
+
+/******************************
+*  SPECIES PAGE CONTENT AREA  *
+******************************/
+
+DIV.content {background-color: #FFE7BD; padding: 8px; text-align: left;}
+
+H3 {font-variant: small-caps; font-weight: bold;}
+
+/* H3 FORMAT WHEN NOT POSSIBLE WITH ABOVE CODE */
+DIV.H3 {font-variant: small-caps; font-weight: bold; font-size: 115%;}
+
+DIV.shortcut {display: none;}
+
+DIV.classification {padding: 8px; float: Right; background-color: #EDCFA5;}
+TD.spacer {width: 5px;}
+TD.KPCOFGS {vertical-align: top;}
+TD.taxonomy {vertical-align: top;}
+
+TD.namelist {width: 162px; text-align: right; vertical-align: top; font-size: 16px;}
+DIV.infoC {font-weight: bold; font-size: 120%}
+DIV.infoS {font-weight: bold; font-size: 120%}
+DIV.infoO {font-weight: bold;}
+TD.names {text-align: left; padding-right: 10px; font-size: 16px;}
+DIV.nameC {font-size: 120%;}
+DIV.nameS {font-style: italic; font-size: 120%;}
+DIV.nameO {}
+
+DIV.indent {margin-left: 40px; margin-right: 40px;}
+.hide {display: none;}
+
+DL.citation {padding-left: 2em; text-indent: -2em;}
+
+DIV.references {margin-left: 40px; margin-right: 40px; padding-left: 2em; text-indent: -2em;}
+
+/***********************
+*  MEASUREMENTS TABLE  *
+***********************/
+
+TD.TableTitle {text-align: center; font-weight: bold;}
+TR.Meas {background-color: #EDCFA5; text-align: center; font-size: 0.8em;}
+TR.MeasHeading {text-align: center; font-weight: bold;}
+
+TD.TDSource {text-align: left; width: 150px;}
+TD.TDWeight {width: 120px;}
+TD.TDHBL {width: 150px;}
+TD.TDHeight {width: 130px;}
+TD.TDTail {width: 100px;}
+
+
+/*******************
+*  NAVIGATION BAR  *
+*******************/
+
+DIV.navigation {display: none;}
+
+
+/*****************
+*  CREDIT LINES  *
+*****************/
+
+TD.logo {vertical-align: top;}
+
+A.logo {display: block; 
+width: 200px !important; width: 205px;
+height: 50px !important; height: 55px;
+background-image: url(../Images/logo.gif); background-repeat: no-repeat;}
+
+Table.footer {}
+TD.credit {vertical-align: top; Font-family: Trebuchet MS, Helvetica, sans-serif; font-size: 14px; padding-left: 40px}
+
+DIV.date {font-weight: bold;}
+
+A.questions {display: none;}

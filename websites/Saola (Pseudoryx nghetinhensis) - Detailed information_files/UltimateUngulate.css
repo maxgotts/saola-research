@@ -1,0 +1,380 @@
+body 
+{color: black; font-family: Georgia, Times New Roman, serif;
+background-image: url(../Images/stucco2.gif); 
+background-repeat: repeat; 
+text-align:center;}
+
+A:link {color: #008000;}
+A:visited {color: #004000;}
+
+DIV.center {text-align: center;}
+
+.page-break  { display: none; }
+
+/**********************
+*  index.html FORMAT  *
+**********************/
+
+DIV.home {
+margin-left: auto;
+margin-right: auto;
+width: 670px;
+border-style: solid;
+border-color: #B99067;
+border-width: 5px;
+background-color: #F7D6AD;
+text-align: left;}
+
+DIV.Welcome {height: 75px; margin-left: 75px; margin-top: 5px;
+font-family: Impact, Charcoal, HelveticaNeue-CondensedBlack, Futura-CondensedExtraBold, AvenirNextCondensed-Heavy, sans-serif; font-size: 20px; 
+background-image: url(../Images/WelcomePage/welcome.gif); background-repeat: no-repeat;}
+
+DIV.guide {background-color: #000000; padding: 6px; 
+text-align: center; font-size: 32px; color: #F7D6AD; font-family: trebuchet ms, arial, chicago;}
+
+DIV.homeimages {width: 325px; text-align: right; margin-left: 5px;}
+
+A.main {display: block; 
+width: 160px !important; 
+width: 330px;
+height: 81px !important;
+height: 101px;
+padding-top: 20px;
+font-family: Trebuchet MS; font-size: 30px; font-weight: bold; letter-spacing: -2px;}
+
+TD.main {line-height: 30px;}
+TD.main A:link {text-decoration: none; color: #000000;}
+TD.main A:visited {text-decoration: none; color: #000000;}
+TD.main A:hover {text-decoration: none; color: #000000; text-shadow: #B99067 2px 2px 3px;}
+TD.main A:active {text-decoration: none; color: #000000;}
+
+A.what {background-image: url(../Images/hoof.gif); background-repeat: no-repeat; padding-left: 110px;}
+A.ungulates {background-image: url(../Images/world.gif); background-repeat: no-repeat; background-position: 60px; padding-left: 170px;}
+A.familytree {background-image: url(../Images/familytree.gif); background-repeat: no-repeat; padding-left: 110px;}
+
+p.updatepage {text-align: left; font-style: italic;
+font-weight: normal; font-family: Trebuchet MS; font-size: 14px;}
+
+A.smmain {display: block; 
+width: 150px !important; 
+width: 225px;
+height: 70px !important;
+padding-left: 75px;
+padding-top: 7px;
+background-repeat: no-repeat;
+font-family: Trebuchet MS; font-size: 24px; font-weight: bold; letter-spacing: -2px;}
+
+A.smwhat {background-image: url(../Images/navigation/whatsmall.gif); }
+A.smungulates {background-image: url(../Images/navigation/ungulatessmall.gif);}
+A.smfamilytree {background-image: url(../Images/navigation/familysmall.gif);}
+
+
+/***********************************************
+*  OUTLINE BOX FOR ALL PAGES AFTER index.html  *
+***********************************************/
+
+DIV.box {margin-left: auto;
+margin-right: auto;
+width: 750px;
+background-color: #B99067;
+text-align: left;}
+
+DIV.box2 {margin-left: auto;
+margin-right: auto;
+width: 750px;
+text-align: left;}
+
+
+/***********
+*  HEADER  *
+***********/
+
+A.headerimage {display: block; 
+width: 589px;
+height: 32px;
+background-image: url(../Images/discoverheader.gif);
+text-align: center;
+margin-left: auto;
+margin-right: auto;}
+
+DIV.header {font-size: 13px; font-weight: bold; font-family: Trebuchet MS, Helvetica, sans-serif; text-align: center;}
+DIV.header A:link {text-decoration: none; color: #000000}
+DIV.header A:visited {text-decoration: none; color: #000000}
+DIV.header A:hover {text-decoration: underline; color: #FFFFFF;}
+DIV.header A:active {text-decoration: none; color: #000000}
+
+DIV.FactSheet {display: none;}
+
+
+/****************
+*  PAGE TITLES  *
+****************/
+
+DIV.title {font-family: Trebuchet MS, Helvetica, sans-serif; font-size: 50px; font-weight: bold; letter-spacing: -3px; padding: 20px 0px 30px 120px;}
+DIV.subtitle {font-family: Trebuchet MS, Helvetica, sans-serif; font-size: 26px; padding: 0px 0px 25px 120px;}
+
+DIV.title2 {font-family: Trebuchet MS, Helvetica, sans-serif; font-size: 42px; font-weight: bold; letter-spacing: -3px;}
+DIV.subtitle2 {font-family: Trebuchet MS, Helvetica, sans-serif; text-transform: uppercase; font-size: 26px; letter-spacing: -1px;}
+
+
+/**************************
+*  TITLE BOX (nav pages)  *
+**************************/
+
+DIV.titlebox {
+background-color: #B99067;
+text-align: left;
+border-style: solid;
+border-color: #000000;
+border-width: 5px;
+padding: 8px;}
+
+DIV.spacer {height: 5px;}
+
+DIV.search {height: 100px; padding-left: 140px; padding-top: 10px;
+font-family: impact, sans serif; font-size: 34px; color: #F7D6AD;
+background-image: url(../Images/search.gif); background-repeat: no-repeat; background-position: 40px;}
+
+
+/*************
+*  NAME BOX  *
+*************/
+
+DIV.name {
+padding: 8px;
+background-color: #EDCFA5;
+border-style: solid;
+border-color: #B99067;
+border-width: 5px;}
+
+DIV.Family {font-size: 48px; font-weight: bold; font-family: Trebuchet MS, Helvetica, sans-serif; text-align: center;}
+DIV.FamilyDesc {font-size: 24px; font-weight: bold; font-family: Trebuchet MS, Helvetica, sans-serif; text-align: center;}
+
+DIV.Latin {font-size: 40px; font-weight: bold; font-style: italic;}
+DIV.common {font-size: 26px;}
+
+
+/************************************
+*  SPECIES IMAGES (on fact sheets)  *
+************************************/
+
+DIV.image A img {border: 2px solid #000000; text-decoration: none;}
+DIV.image A:hover img {border: 2px solid #FFFFFF;}
+TD.clickimages {text-align: right; font-size: 10px;}
+
+SPAN.caption {font-size: 12px; font-weight: bold;}
+SPAN.locale {font-size: 11px; font-weight: normal;}
+SPAN.zoo {font-size: 11px; font-weight: normal;}
+DIV.credit {font-size: 12px; font-weight: normal;}
+
+
+/***************
+*  INFO PANEL  *
+***************/
+
+DIV.info {border-style: solid;
+border-color: #B99067;
+border-width: 5px;
+line-height: 130%;}
+
+DIV.Familyinfo {border-style: solid;
+border-color: #B99067;
+border-width: 0px 5px 5px 5px;
+line-height: 130%;}
+
+
+/***************************
+*  UNGULATES OF THE WORLD  *
+***************************/
+
+DIV.List {}
+DIV.ListOrder {font-weight: bold; font-size: 24px; margin-left: 40px; padding-top: 20px;}
+DIV.ListSuborder {font-size: 24px; margin-left: 40px;}
+DIV.ListFamily {font-weight: bold; font-size: 20px; margin-left: 60px; padding-top: 20px;}
+DIV.ListSubfamily {font-size: 18px; margin-left: 80px; padding-top: 20px;}
+DIV.ListGenus {font-style: italic; font-weight: bold; font-size: 16px; margin-left: 100px;}
+DIV.ListSpecies {font-size: 16px; margin-left: 120px; padding-bottom: 20px;}
+
+SPAN.small {font-size:11px;}
+
+Table.newtaxonomy {border: 0px; padding: 0px; vertical-align: top; }
+Table.newtaxonomy tr {vertical-align: top;}
+Table.newtaxonomy td {line-height: 130%;}
+
+TD.newtaxonspace {width: 120px;}
+
+
+/************************
+*  FAMILY PAGE CONTENT  *
+************************/
+
+DIV.FamilyTree {text-align: center; font-family: Trebuchet MS, Helvetica, sans-serif; font-size: 24px; font-weight: bold; line-height: 130%;}
+DIV.branch {text-align: center; font-family: Trebuchet MS, Helvetica, sans-serif; font-size: 13px; line-height: 120%;}
+DIV.jump {text-align: center; font-family: Trebuchet MS, Helvetica, sans-serif; font-size: 18px;}
+A.specieslist {font-weight: bold;}
+
+TABLE.phylogeny {Font-family: Trebuchet MS, Helvetica, sans-serif; Font-style: italic; Font-size: 19px; line-height: 11px; margin-bottom: 20px;}
+TABLE.phylogeny A:link {text-decoration: none; color: #008000}
+TABLE.phylogeny A:visited {text-decoration: none; color: #008000}
+TABLE.phylogeny A:hover {text-decoration: underline; color: #008000}
+TABLE.phylogeny A:active {text-decoration: none; color: #008000}
+
+TD.Return {Font-style: normal; text-align: center; vertical-align: top; line-height: 22px;}
+TD.SilhouetteReturn {Font-style: normal; text-align: center; vertical-align: top;}
+TD.Subfamily {Font-style: normal; font-weight: bold; Font-size: 21px; padding-bottom: 13px; line-height: 23px !important; line-height:25px;}
+
+TD.phylo {background-repeat: no-repeat;}
+
+TD.subfam {line-height: 130%}
+
+DIV.Ref {padding: 8px; text-align: left; background-color: #EDCFA5;}
+
+
+/*************************
+*  SPECIES PAGE TAB ROW  *
+*************************/
+
+TR.tab {height: 30px; font-size: 16px; text-align: center; font-family: Georgia; font-weight: bold; vertical-align: middle}
+TR.tab A:link {text-decoration: none; color: #404040}
+TR.tab A:visited {text-decoration: none; color: #404040}
+TR.tab A:hover {text-decoration: none; color: #202020}
+TR.tab A:active {text-decoration: none; color: #202020}
+
+TD.space {width: 50px;}
+TD.front {width: 198px; background-image: url(../Images/front.gif); background-repeat: no-repeat;}
+TD.front2 {width: 198px; background-image: url(../Images/front2.gif); background-repeat: no-repeat;}
+TD.back {width: 198px; background-image: url(../Images/select.gif); background-repeat: no-repeat;}
+TD.back2 {width: 198px; background-image: url(../Images/select2.gif); background-repeat: no-repeat;}
+
+TD.hide {display: none;}
+
+A.tab {display: block;
+width: 198px; 
+height: 25px !important;
+height: 30px; 
+background-image: url(../Images/back.gif);
+padding-top: 5px;}
+A.tab:hover {background-image: url(../Images/select.gif);}
+
+A.tab2 {display: block;
+width: 198px; 
+height: 25px !important;
+height: 30px; 
+background-image: url(../Images/back2.gif);
+padding-top: 5px;}
+A.tab2:hover {background-image: url(../Images/select2.gif);}
+
+
+/******************************
+*  SPECIES PAGE CONTENT AREA  *
+******************************/
+
+DIV.content {background-color: #FFE7BD; padding: 8px; text-align: left;}
+
+H3 {font-variant: small-caps; font-weight: bold;}
+
+/* H3 FORMAT WHEN NOT POSSIBLE WITH ABOVE CODE */
+.H3 {font-variant: small-caps; font-weight: bold; font-size: 115%;}
+
+DIV.shortcut {padding: 4px; text-align: center; background-color: #F7DDB3; font-size: 14px;}
+
+DIV.classification {padding: 8px; float: Right; background-color: #EDCFA5;}
+TD.spacer {width: 5px;}
+TD.KPCOFGS {vertical-align: top;}
+TD.taxonomy {vertical-align: top;}
+
+TD.namelist {width: 162px; text-align: right; vertical-align: top; font-size: 16px;}
+DIV.infoC {font-weight: bold; font-size: 120%}
+DIV.infoS {font-weight: bold; font-size: 120%}
+DIV.infoO {font-weight: bold;}
+TD.names {text-align: left; padding-right: 10px; font-size: 16px;}
+DIV.nameC {font-size: 120%;}
+DIV.nameS {font-style: italic; font-size: 120%;}
+DIV.nameO {}
+
+DIV.indent {margin-left: 40px; margin-right: 40px;}
+.hide {display: none;}
+
+DL.citation {padding-left: 2em; text-indent: -2em;}
+
+DIV.references {margin-left: 40px; margin-right: 40px; padding-left: 2em; text-indent: -2em;}
+
+
+/***********************
+*  MEASUREMENTS TABLE  *
+***********************/
+
+TD.TableTitle {text-align: center; font-weight: bold;}
+TR.Meas {background-color: #EDCFA5; text-align: center; font-size: 0.8em;}
+TR.MeasHeading {text-align: center; font-weight: bold;}
+
+TD.TDSource {text-align: left; width: 150px;}
+TD.TDWeight {width: 120px;}
+TD.TDHBL {width: 150px;}
+TD.TDHeight {width: 130px;}
+TD.TDTail {width: 100px;}
+
+
+/*******************
+*  NAVIGATION BAR  *
+*******************/
+
+DIV.navigation {padding: 0px;
+width: 602px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;}
+
+TR.nav {
+	text-align: center;
+	font-family: Impact, Charcoal, HelveticaNeue-CondensedBlack, Futura-CondensedExtraBold, AvenirNextCondensed-Heavy, sans-serif;
+	font-size: 17px;
+	background-image: url(../Images/Navigation/navbg.gif);
+	background-repeat: repeat-x;
+}
+
+TR.nav A:link {text-decoration: none; color: #000000; border-style: solid; border-width: 2px; border-color: transparent;}
+TR.nav A:visited {text-decoration: none; color: #000000; border-style: solid; border-width: 2px; border-color: transparent;}
+TR.nav A:hover {text-decoration: underline;}
+TR.nav A:active {text-decoration: none; color: #000000; border-style: solid; border-width: 2px; border-color: transparent;}
+
+TD.space {width: 50px;}
+TD.space2 {width: 7px;}
+TD.space3 {width: 11px;}
+TD.nav {vertical-align: top;}
+TD.update {vertical-align: top;}
+
+A.nav {display: block; 
+width: 80px !important;
+width: 86px;
+height: 36px !important;
+height: 90px;
+background-repeat: no-repeat; padding-top: 54px;}
+
+A.navhome {background-image: url(../Images/Navigation/home.gif);}
+A.navung {background-image: url(../Images/Navigation/ungulate.gif);}
+A.navabout {background-image: url(../Images/Navigation/about.gif);}
+A.navgloss {background-image: url(../Images/Navigation/glossary.gif);}
+A.navlinks {background-image: url(../Images/Navigation/links.gif);}
+A.navsearch {background-image: url(../Images/Navigation/search.gif);}
+A.navcontact {background-image: url(../Images/Navigation/contactus.gif);}
+
+TD.update A:link {text-decoration: underline; color: #008000;}
+TD.update A:visited {text-decoration: underline; color: #004000;}
+
+
+/*****************
+*  CREDIT LINES  *
+*****************/
+
+TD.logo {vertical-align: middle;}
+
+A.logo {display: block; 
+width: 200px !important; width: 205px;
+height: 50px !important; height: 55px;
+background-image: url(../Images/logo.gif); background-repeat: no-repeat;}
+
+Table.footer {}
+TD.credit {vertical-align: top; Font-family: Trebuchet MS, Helvetica, sans-serif; font-size: 14px; padding-left: 40px}
+
+DIV.date {font-weight: bold;}
