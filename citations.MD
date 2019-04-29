@@ -1,9 +1,9 @@
 # APA Citations
-* arctander2000 :: https://www.jstor.org/stable/2585385
 * bibi2010 :: 10.1186/1741-7007-8-50
     * Bibi, F., & Vrba, E. S. (2010). Unraveling bovin phylogeny: accomplishments and challenges. BMC Biology, 8(1), 50. doi:10.1186/1741-7007-8-50
 * dung1993 :: 10.1038/363443a0
     * an Dung, V., Giao, P. M., Chinh, N. N., Tuoc, D., Arctander, P., & MacKinnon, J. (1993). A new species of living bovid from Vietnam. Nature, 363(6428), 443–445. doi:10.1038/363443a0
+* gatesy2000 :: https://www.jstor.org/stable/2585385
 * hassanin1999 :: 10.1098/rspb.1999.0720
     * Hassanin, A., & Douzery, E. J. P. (1999). Evolutionary affinities of the enigmatic saola (Pseudoryx nghetinhensis) in the context of the molecular phylogeny of Bovidae. Proceedings of the Royal Society B: Biological Sciences, 266(1422), 893–900. doi:10.1098/rspb.1999.0720
 * iucn2016 :: 10.2305/IUCN.UK.2016-2.RLTS.T18597A46364962.en
