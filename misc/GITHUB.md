@@ -1,2 +1,1 @@
-# Github.com Link
-* git@github.com:maxgotts/saola-research.git
+git@github.com:maxgotts/saola-research.git
